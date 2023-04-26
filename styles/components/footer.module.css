@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+.footer-heading{
+    color: #197b8c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    padding: 10px 0px;
+    text-align: center;
+}
+.linkedin-icon{
+    color: #41b6b1;
+    font-family: 'Montserrat', sans-serif;
+}
+.twitter-icon{
+    color: #41b6b1;
+    margin-left: 10px;
+}
+.footer-listitems{
+    color: #fff;
+    text-align: center;
+}
+.website-build{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.copy-right{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}

@@ -1,0 +1,107 @@
+
+.herosection-bg{
+    background-image: url(https://res.cloudinary.com/dm9tstije/image/upload/v1682355688/gdfhome/GDF-Homepage_banner-03-scaled_jxszjq.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.hero-heading{
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.hero-para{
+    color: #fff;
+}
+.hero-buttons{
+    letter-spacing: 1.5px;
+    background-color: #178094;
+    margin-top: 10px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.hero-strong{
+    color: #2c9195;
+    font-weight: 900;
+}
+.content{
+    color: #FFF;
+    font-family: "Montserrat";
+    font-weight: 100;
+}
+.visit-gbbc{
+    display:inline-block;
+    font-weight: 600;
+    background-color: #4CBEBB;
+    border-radius: 15px 15px 15px 15px;
+    padding: 15px 50px 15px 50px;
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+.activity-heading1{
+    color: #fff; 
+    font-size: 20px;  
+   
+}
+.activity-heading2{
+    border-top: 5px solid #ffffff;
+    font-size: 20px;
+    padding-top: 10px;
+    color: #fff;
+}   
+.activity-heading3{
+    border-top: 1px solid #ffffff;
+    font-size: 16px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.activities{
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    font-size: large;
+}
+.event-image{
+    width: 100%;
+    height: 190px;
+    object-fit: contain;  
+    margin-top: 10px; 
+}
+.line1{
+    border-bottom: 5px solid #ffffff;
+    width: 100px;
+}
+
+
+
+.green-line{
+    border-bottom: 5px solid #4cbebb;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.view-all{
+    background-color: #4CBEBB;
+    border-radius: 15px 15px 15px 15px;
+    padding: 15px;
+    display: inline-block;
+    position: relative;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin-top: 40px;
+    color: #fff;
+    opacity: 0.8px;
+}
