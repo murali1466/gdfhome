@@ -15,6 +15,19 @@ body {
   font-weight: bolder;
 }
 
+
+/* .slick-slider .slick-prev::before{
+  content: "<";
+  color: #000;
+} */
+.slick-slider .slick-next::before{
+  content: ">";
+  color: #000;
+}
+
+
+
+
 .MuiListItem-root{
   display: inline-block;
 }
@@ -33,4 +46,19 @@ body {
 }
 .main{
   padding: 30px 0px;
+}
+
+.ani{
+  opacity: 0;
+transform: translateY(50px) translateZ(0px);
+}
+.ani:hover{
+  opacity: 1;
+transform: none;
+}
+.mobile-dropdown-item{
+  display: none;
+} 
+.appbar-mobile-icons{
+  color: black;
 }

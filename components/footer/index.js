@@ -16,9 +16,9 @@ export default function Footer() {
       <Box sx={{ backgroundColor: "#030122", p: "20px" }}>
         <Container>
           <Grid container spacing={2}>
-            <Grid item xs="12" sm="6" md="4">
+            <Grid item xs={12} sm={6} md={4}>
               {" "}
-              <Box>
+              <Box className="wow fadeInUp " data-wow-delay="10s">
                 <Typography variant="h5" className={styles["footer-heading"]}>
                   CONTACT
                 </Typography>
@@ -53,6 +53,7 @@ export default function Footer() {
                       sx={{
                         display: "flex",
                         alignItems: "center",
+                        padding: "3px",
                       }}
                     >
                       <EmailIcon sx={{ color: "#fff" }} />
@@ -67,7 +68,7 @@ export default function Footer() {
                 </Box>
               </Box>
             </Grid>
-            <Grid item xs="12" sm="6" md="4">
+            <Grid item xs={12} sm={6} md={4}>
               {" "}
               <Box>
                 <Typography variant="h5" className={styles["footer-heading"]}>
@@ -98,7 +99,7 @@ export default function Footer() {
                 </List>
               </Box>
             </Grid>
-            <Grid item xs="12" sm="6" md="4">
+            <Grid item xs={12} sm={6} md={4}>
               {" "}
               <Box>
                 <Typography variant="h5" className={styles["footer-heading"]}>

@@ -1,0 +1,36 @@
+
+.desktop-dropdown-heading{
+    margin-bottom: 20px;
+    color: #4AADB9;
+    border-bottom: 1px solid #4AADB9;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: none;
+}
+.list-items{
+    border: 0;
+    font-weight: 400;
+    font-stretch: 100%;
+    color: #040f0f;
+    font-size: 16px;
+    padding: 5px 0;
+    transition: .5s;
+}
+.listitem-parent{
+    color: #000;
+    padding: 20px 0px;
+}
+.desktop-dropdown-item{
+    display: none;
+}
+.listitem-parent:hover .desktop-dropdown-item{
+    display: block;
+}
+.MuiInputBase-input{
+    border-radius: 25px;
+    width: 250px;
+    color: #afafaf;
+    border: 1px solid #afafaf;
+    font-size: 14px;
+}

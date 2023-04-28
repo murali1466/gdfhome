@@ -3,6 +3,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { Container, Typography, Box } from "@mui/material";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 export default function WorkingGroups() {
   var settings = {
@@ -40,13 +42,25 @@ export default function WorkingGroups() {
   return (
     <>
       <Box className="main">
-        <Container sx={{ padding: "10px" }}>
+        <Container
+          sx={{
+            padding: "10px",
+          }}
+        >
           <Box className="bluebar" sx={{ marginBottom: "20px" }}>
             <Typography variant="span" className="bluebar-inside">
               Working Groups
             </Typography>
           </Box>
-          <Slider {...settings}>
+          <Slider
+            {...settings}
+            sx={{
+              ".slick-slider .slick-prev::before": {
+                content: <ArrowBackIosIcon />,
+                background: "red",
+              },
+            }}
+          >
             <Box sx={{ padding: "10px" }} className="wgcard">
               <img
                 src="https://res.cloudinary.com/dm9tstije/image/upload/v1682441552/gdfhome/reports-default-1_uxbqyz.svg"
